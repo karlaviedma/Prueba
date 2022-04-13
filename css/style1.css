@@ -1,0 +1,533 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* login*/
+    body{
+        margin: 0;
+        background: url(https://www.nvtphybridge.com/wp-content/uploads/2019/04/MSU-Blog-1030x573.jpg) ;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .contenedor1{
+        width: 100%;
+        padding: 15px;
+    }
+    .formulario{
+        background: #fff;
+        margin-top: 150px;
+        padding: 3px;
+    }
+    h1{
+        text-align: center;
+    }
+    input[type="text"],
+    input[type="password"]{
+        font-size: 20px;
+        width: 82%;
+        padding: 10px;
+        border: none;
+    }
+    .input-contenedor{
+        margin-bottom: 15px;
+        border: 1px solid #aaa;
+    }
+    .icon{
+        min-width: 50px;
+        text-align: center;
+        color: #999;
+    }
+    .button{
+        border: none;
+        width: 100%;
+        color: white;
+        font-size: 20px;
+        background: #1a2537;
+        padding: 15px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    @media(min-width:768px){
+        .formulario{
+            margin: auto;
+            width: 500px;
+            margin-top: 150px;
+            border-radius: 2%;
+            margin-bottom: 181px;
+        }
+    }
+
+body{
+    background-color: #b5caee ;
+}
+
+#more {display: none;}
+
+.preguntas .contenedor{
+    align-items: center;
+}
+
+.preguntas .contenedor button{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    align-items: center;
+    margin-left: 25px;
+    height: 80px;
+    width: 450px;
+}
+
+.cards .card{
+    background: #fff;
+    display: flex;
+    width: 40%;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+.quienes-somos{
+    margin-bottom: 50px;
+}
+
+.contenedor{
+    padding: 60px 0 ;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+h2{
+    color: #000000;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contenedor-nuestra-institucion{
+    justify-content: space-evenly;
+}
+.imagen-about-us{
+    width: 99%;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 5);
+    margin-left: 5px;
+}
+.contenedor-nuestra-institucion .contenido-textos h3{
+    margin-bottom: 15px;
+}
+.contenedor-nuestra-institucion .contenido-textos h3 span{
+    background: #b181da;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    width: 30px ;
+}
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+.portafolio{
+    background: #b5caee;
+    margin-bottom: 30px;
+}
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    height: 200px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 5);
+}
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: rgba(106, 187, 224, 0.562);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.hover-galeria img{
+    width: 50px;
+}
+.hover-galeria p{
+    color: #fff;
+}
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenedor-noticias{
+    display: flex;
+    justify-content: space-evenly;
+    background: #b5caee;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+.contenedor-noticias .noticias{
+    width: 95%;
+}
+.cards .card{
+    background: #b5caee;
+    display: flex;
+    width: 40%;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+.cards .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    display: block;
+} 
+.cards .card > .contenido-texto-card{
+    width: 80%;
+    color: #000000;
+}
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.about-servoces{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+.about-servoces2{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+    text-align: left;
+}
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.servicio-ind{
+    width: 100%;
+    text-align: center;
+}
+.servicio-ind img{
+    width: 90%;
+}
+.servicio-ind h3{
+    margin: 10px 0;
+}
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* Pie de pagina*/
+
+.pie-pagina{
+    width: 100%;
+    background-color: #212529;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: rgb(22, 21, 21);
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #3a434b;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .imagen-about-us{
+        background-position: center;
+    }
+
+    .contenedor-nuestra-institucion{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-nuestra-institucion .contenido-textos{
+        width: 90%;
+    }
+
+    .imagen-port{
+        width: 44%;
+    }
+
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards .card{
+        width: 40%;
+    }
+    .cards .card:first-child{
+        margin-bottom: 50px;
+    }
+
+    .servicio-cont{
+        justify-content: center;
+        flex-direction: column; 
+    }
+    .servicio-ind{
+        width: 100%;
+        text-align: center;
+    }
+    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
+        margin-bottom: 60px;
+    }
+    .servicio-ind img{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1300px){
+    .cards .card{
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .preguntas .contenedor{
+        align-items: center;
+    }
+    
+    .preguntas .contenedor button{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        align-items: center;
+        margin-left: 230px;
+        height: 80px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .preguntas .contenedor{
+        align-items: center;
+    }
+    
+    .preguntas .contenedor button{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        align-items: center;
+        margin-left: 130px;
+        height: 80px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .preguntas .contenedor{
+        align-items: center;
+    }
+    
+    .preguntas .contenedor button{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        align-items: center;
+        margin-left: 40px;
+        height: 80px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .preguntas .contenedor{
+        align-items: center;
+    }
+    
+    .preguntas .contenedor button{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: center;
+        margin-left: 110px;
+        height: 150px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .preguntas .contenedor{
+        align-items: center;
+    }
+    
+    .preguntas .contenedor button{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: center;
+        margin-left: 10px;
+        height: 150px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .preguntas .contenedor{
+        align-items: center;
+    }
+    
+    .preguntas .contenedor button{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: center;
+        margin-left: 60px;
+        height: 150px;
+        width: 300px;
+    }
+
+    .contenedor-nuestra-institucion{
+        width: 95%;
+    }
+
+    .imagen-port{
+        width: 95%;
+    }
+
+    .cards .card{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards .card img{
+        width: 90px;
+        height: 90px;
+    }
+    .cards .card{
+        width: 90%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards .card img{
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .contenedor-nuestra-institucion{
+        width: 95%;
+    }
+
+    .imagen-port{
+        width: 95%;
+    }
+
+    .cards .card{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards .card img{
+        width: 90px;
+        height: 90px;
+    }
+    
+    .cards .card{
+        width: 90%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards .card img{
+        width: 90px;
+        height: 90px;
+    }
+}
